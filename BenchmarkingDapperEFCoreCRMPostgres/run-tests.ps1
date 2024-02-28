@@ -3,4 +3,4 @@ $env:BaseEFCoreConnectionString = "Server=localhost;Port=5432;Database=basecrmef
 $env:BaseDapperConnectionString = "Server=localhost;Port=5432;Database=basecrmdapper;User Id=postgres;Password=Postgres2024!"
 $env:BaseDapperContribConnectionString = "Server=localhost;Port=5432;Database=basecrmdappercontrib;User Id=postgres;Password=Postgres2024!;"
 $env:BaseADOConnectionString = "Server=localhost;Port=5432;Database=basecrmado;User Id=postgres;Password=Postgres2024!"
-dotnet run --filter * -c Release
+dotnet run --filter BenchmarkingDapperEFCoreCRMPostgres.Tests.* -c Release
